@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Katana Shop</title>
+</head>
+<body>
+    <div>
+        <h1>Katana Shop</h1>
+    </div>
+    
+    <div class="product-list">
+        <% katanas.forEach((katana) => { %>
+            <div class="product-item">
+                <img src="/img/<%= katana.image %>" alt="<%= katana.katana_name %>" class="product-image">
+                <h2><a href="/product/<%= katana.katana_name %>"><%= katana.katana_name %></a></h2>
+                <p>Price: $<%= katana.price.toFixed(2) %></p>
+                <p>Material: <%= katana.material %></p>
+                <p>Blade Length: <%= katana.blade_length %> inches</p>
+            </div>
+        <% }); %>
+    </div>
+</body>
+</html>

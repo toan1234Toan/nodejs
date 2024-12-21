@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <title><%= katana.katana_name %> Details</title>
+</head>
+<body>
+    <div>
+        <h1>Katana Shop</h1>
+    </div>
+    
+    <h1><%= katana.katana_name %> Details</h1>
+    <div class="product-detail">
+        <div class="product-image-container">
+            <img src="/img/<%= katana.image %>" alt="<%= katana.katana_name %>" class="product-image">
+        </div>
+        <div class="product-info">
+            <p><strong>Price:</strong> $<%= katana.price.toFixed(2) %></p>
+            <p><strong>Material:</strong> <%= katana.material %></p>
+            <p><strong>Blade Length:</strong> <%= katana.blade_length %> inches</p>
+            <p><strong>Handle Color:</strong> <%= katana.handle_color %></p>
+            <p><strong>Quantity in Stock:</strong> <%= katana.quantity_in_stock %></p>
+            <p><strong>Manufacturer:</strong> <%= katana.manufacturer %></p>
+            <p><strong>Blade Type:</strong> <%= katana.blade_type %></p>
+            <p><strong>Weight:</strong> <%= katana.weight %> lbs</p>
+            <p><strong>Release Date:</strong> <%= katana.release_date %></p>
+            <a href="/" class="back-button">Back to list</a>
+        </div>
+    </div>
+</body>
+</html>

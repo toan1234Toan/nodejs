@@ -1,0 +1,55 @@
+[
+    {
+      "katana_name": "Dr",
+      "price": 156.15,
+      "material": "iron",
+      "blade_length": 32.82,
+      "handle_color": "Khaki",
+      "quantity_in_stock": 945,
+      "manufacturer": "Brainlounge",
+      "blade_type": "curved",
+      "weight": 3.07,
+      "release_date": "8/14/2022",
+      "image": "katana1.jpg"
+    },
+    {
+      "katana_name": "Rev",
+      "price": 334.24,
+      "material": "steel",
+      "blade_length": 29.18,
+      "handle_color": "Purple",
+      "quantity_in_stock": 371,
+      "manufacturer": "Voolia",
+      "blade_type": "straight",
+      "weight": 3.73,
+      "release_date": "4/24/2014",
+      "image": "katana2.jpg"
+    },
+    {
+      "katana_name": "Mr",
+      "price": 399.59,
+      "material": "carbon fiber",
+      "blade_length": 34.77,
+      "handle_color": "Pink",
+      "quantity_in_stock": 111,
+      "manufacturer": "Gevee",
+      "blade_type": "straight",
+      "weight": 3.0,
+      "release_date": "6/16/2016",
+      "image": "katana3.jpg"
+    },
+    {
+      "katana_name": "Ms",
+      "price": 92.04,
+      "material": "iron",
+      "blade_length": 35.76,
+      "handle_color": "Fuscia",
+      "quantity_in_stock": 439,
+      "manufacturer": "Quinu",
+      "blade_type": "curved",
+      "weight": 2.4,
+      "release_date": "8/15/2014",
+      "image": "katana4.jpg"
+    }
+  ]
+  
